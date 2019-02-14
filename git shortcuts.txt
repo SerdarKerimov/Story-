@@ -1,0 +1,6 @@
+git init   = initialize
+git status  = shows the untracked files.
+git add chapter1.txt			// add the file
+git commit -m			// commit message
+git log				// see the commit
+git add .		// add all the file in the director
