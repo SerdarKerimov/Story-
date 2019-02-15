@@ -3,4 +3,10 @@ git status  = shows the untracked files.
 git add chapter1.txt			// add the file
 git commit -m			// commit message
 git log				// see the commit
-git add .		// add all the file in the director
+git add . 		// add all the file in the director
+git checkout chapter3.txt		// revert the file back
+git diff chapter3.txt		// see the difference after modified
+
+//online
+git remote add origin https://github.com/SerdarKerimov/Story-.git	/// Remote controller set up
+git push -u origin master//push my local reposrative
